@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex gap-10 items-center font-medium">
             <li>
-              <a href="" className="hover:text-blue-600 transition-colors">
+              <a href="/" className="hover:text-blue-600 transition-colors">
                 Beranda
               </a>
             </li>
