@@ -67,7 +67,8 @@ const Landing = () => {
               </a>
 
               <div>
-                <Link to="/Wahana"
+                <Link
+                  to="/Wahana"
                   className="bg-white/60 backdrop-blur-sm p-2 rounded-lg md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg font-semibold flex items-center gap-1 text-blue-600">
                   Lihat Wahana{" "}
                   <span>
@@ -237,7 +238,7 @@ const Landing = () => {
       </section>
       <section
         id="Tour"
-        className="relative min-h-screen bg-gradient-to-b from-blue-950 to-slate-950 px-4 sm:px-6 md:px-20 pt-28 pb-32 overflow-hidden rounded-t-[4rem]">
+        className="relative min-h-screen bg-gradient-to-b from-blue-950 to-slate-950 px-4 sm:px-6 md:px-20 pt-28 pb-40 overflow-hidden rounded-t-[4rem]">
         <div class="absolute top-0 left-0 w-full overflow-hidden leading-none">
           <svg
             class="relative block w-full h-26"
@@ -249,17 +250,19 @@ const Landing = () => {
           </svg>
         </div>
         <div className="relative z-10">
-          <h1 className="text-transparent text-center bg-clip-text bg-gradient-to-r from-teal-500 to-teal-700 font-black leading-tight text-4xl sm:text-5xl md:text-8xl drop-shadow-[0_15px_30px_rgba(0,0,0,0.5)]">
-            Selecta{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">
-              Tour
-            </span>
-          </h1>
+          <div className="flex flex-col justify-center items-center ">
+            <h1 className="text-transparent text-center bg-clip-text bg-gradient-to-r from-teal-500 to-teal-700 font-black leading-tight text-4xl sm:text-5xl md:text-8xl drop-shadow-[0_15px_30px_rgba(0,0,0,0.5)]">
+              Selecta{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">
+                Tour
+              </span>
+            </h1>
 
-          <p className="max-w-lg text-slate-400 sm:text-lg md:text-md mt-5 text-center justify-center flex leading-relaxed">
-            Jelajahi Selecta secara mendalam, mulai dari pintu masuk hingga
-            seluruh area wisata, melalui pengalaman interaktif 360°.
-          </p>
+            <p className="max-w-lg text-slate-400 sm:text-lg md:text-md mt-5 justify-center flex leading-relaxed text-center items-cente">
+              Jelajahi Selecta secara mendalam, mulai dari pintu masuk hingga
+              seluruh area wisata, melalui pengalaman interaktif 360°.
+            </p>
+          </div>
 
           <div className="relative w-full mt-10 md:mt-16">
             <div className="relative w-full h-[260px] sm:h-[330px] md:h-[700px] overflow-hidden">
@@ -275,10 +278,53 @@ const Landing = () => {
           </div>
         </div>
       </section>
+      <section className="relative z-[20] bg-gradient-to-b from-blue-800 to-blue-900 py-16 overflow-hidden rounded-t-2xl -mt-20">
+        <div className="max-w-4xl mx-auto text-center px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            Siap untuk Mencoba Wahana?
+          </h2>
+          <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+            Pesan tiket Anda sekarang dan nikmati wahana serta keindahan Selecta
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://yellow-partridge-166068.hostingersite.com/keranjang"
+              className="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors duration-500 shadow-lg hover:shadow-xl transform flex items-center gap-2">
+              Pesan Tiket Sekarang{" "}
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 256 256">
+                  <path
+                    fill="currentColor"
+                    d="M227.19 104.48A16 16 0 0 0 240 88.81V64a16 16 0 0 0-16-16H32a16 16 0 0 0-16 16v24.81a16 16 0 0 0 12.81 15.67a24 24 0 0 1 0 47A16 16 0 0 0 16 167.19V192a16 16 0 0 0 16 16h192a16 16 0 0 0 16-16v-24.81a16 16 0 0 0-12.81-15.67a24 24 0 0 1 0-47ZM32 167.2a40 40 0 0 0 0-78.39V64h56v128H32Zm192 0V192H104V64h120v24.8a40 40 0 0 0 0 78.39Z"
+                  />
+                </svg>
+              </span>
+            </a>
+            <a href="https://yellow-partridge-166068.hostingersite.com/" className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 hover:text-white transition-colors duration-500 flex items-center gap-2">
+              Kunjungi Website Utama{" "}
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M3.055 11a9.009 9.009 0 0 1 6.277-7.598A16.906 16.906 0 0 0 7.029 11H3.055Zm7.937-9.954C5.39 1.554 1 6.265 1 12s4.39 10.445 9.992 10.954l.008.01l.425.021A12.476 12.476 0 0 0 12 23a11.285 11.285 0 0 0 .575-.015l.425-.02l.008-.01C18.61 22.444 23 17.735 23 12S18.61 1.554 13.008 1.046L13 1.036l-.426-.021a11.162 11.162 0 0 0-1.148 0l-.426.02l-.008.01ZM12.002 3a14.918 14.918 0 0 1 2.965 8H9.033a14.918 14.918 0 0 1 2.966-8H12ZM7.028 13c.16 2.76.98 5.345 2.303 7.598A9.009 9.009 0 0 1 3.054 13h3.974Zm4.97 8a14.918 14.918 0 0 1-2.966-8h5.934A14.918 14.918 0 0 1 12 21Zm2.67-.402A16.907 16.907 0 0 0 16.97 13h3.974a9.009 9.009 0 0 1-6.277 7.598ZM16.97 11c-.16-2.76-.98-5.345-2.303-7.598A9.009 9.009 0 0 1 20.945 11h-3.974Z"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   );
 };
-
 
 export default Landing;
