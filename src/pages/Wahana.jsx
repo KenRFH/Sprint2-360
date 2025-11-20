@@ -80,6 +80,7 @@ const Wahana = () => {
                   src="/assets/DinoRanch.png"
                   alt="Dino Ranch"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -121,6 +122,7 @@ const Wahana = () => {
                   src="../assets/Bianglala.png"
                   alt="Bianglala"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -159,9 +161,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
+                  src="./assets/IMG/BalonUdara-min.jpg"
                   alt="Balon Udara"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -199,9 +202,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
-                  alt="Balon Udara"
+                  src="./assets/IMG/Akoirium1-min.jpg"
+                  alt="Akoirium"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -227,7 +231,7 @@ const Wahana = () => {
                     <span>08.00 - 20.00</span>
                   </div>
                   <Link
-                    to="/Wahana/BalonUdara"
+                    to="/Wahana/Akoirium"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
                     <span>Detail</span>
                     <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
@@ -239,9 +243,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
-                  alt="Balon Udara"
+                  src="./assets/IMG/GardenTram.jpg"
+                  alt="Garden Tram"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -267,7 +272,7 @@ const Wahana = () => {
                     <span>08.00 - 20.00</span>
                   </div>
                   <Link
-                    to="/Wahana/BalonUdara"
+                    to="/Wahana/GardenTram"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
                     <span>Detail</span>
                     <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
@@ -279,9 +284,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
+                  src="./assets/IMG/FamilyCoaster-min.jpg"
                   alt="Family Coaster"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -307,7 +313,7 @@ const Wahana = () => {
                     <span>08.00 - 20.00</span>
                   </div>
                   <Link
-                    to="/Wahana/BalonUdara"
+                    to="/Wahana/FamilyCoaster"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
                     <span>Detail</span>
                     <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
@@ -319,9 +325,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
+                  src="./assets/IMG/4DCinema-min.jpg"
                   alt="4D Cinema"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -347,7 +354,7 @@ const Wahana = () => {
                     <span>08.00 - 20.00</span>
                   </div>
                   <Link
-                    to="/Wahana/BalonUdara"
+                    to="/Wahana/Cinema"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
                     <span>Detail</span>
                     <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
@@ -359,9 +366,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
+                  src="./assets/IMG/PaddleBoat-min.jpg"
                   alt="Paddle Boat"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -387,7 +395,7 @@ const Wahana = () => {
                     <span>08.00 - 20.00</span>
                   </div>
                   <Link
-                    to="/Wahana/BalonUdara"
+                    to="/Wahana/PaddleBoat"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
                     <span>Detail</span>
                     <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
@@ -399,9 +407,10 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/BalonUdara.jpg"
+                  src="./assets/IMG/SkyBike.jpg"
                   alt="SkyBike"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
@@ -427,7 +436,130 @@ const Wahana = () => {
                     <span>08.00 - 20.00</span>
                   </div>
                   <Link
-                    to="/Wahana/BalonUdara"
+                    to="/Wahana/SkyBike"
+                    className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
+                    <span>Detail</span>
+                    <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* Tagada */}
+            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
+              <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
+                <img
+                  src="./assets/IMG/Tagada-min.jpg"
+                  alt="Tagada"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+              </div>
+              <div className="p-5 md:p-6">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-800">
+                    Tagada
+                  </h3>
+                  <div className="flex items-center text-amber-500">
+                    <i className="fas fa-star text-xs md:text-sm"></i>
+                    <span className="ml-1 text-xs md:text-sm font-semibold">
+                      4.7
+                    </span>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
+                  Area taman penuh warna untuk bersantai dan berfoto dengan
+                  pemandangan alam yang menakjubkan.
+                </p>
+                <div className="flex justify-between items-center pt-2 border-t border-slate-100">
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
+                    <i className="fas fa-clock mr-1"></i>
+                    <span>08.00 - 20.00</span>
+                  </div>
+                  <Link
+                    to="/Wahana/Tagada"
+                    className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
+                    <span>Detail</span>
+                    <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* Mini Bumper Car*/}
+            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
+              <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
+                <img
+                  src="./assets/IMG/MiniBumper-min.jpg"
+                  alt="Mini Bumper Car"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+              </div>
+              <div className="p-5 md:p-6">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-800">
+                    Mini Bumper Car
+                  </h3>
+                  <div className="flex items-center text-amber-500">
+                    <i className="fas fa-star text-xs md:text-sm"></i>
+                    <span className="ml-1 text-xs md:text-sm font-semibold">
+                      4.7
+                    </span>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
+                  Area taman penuh warna untuk bersantai dan berfoto dengan
+                  pemandangan alam yang menakjubkan.
+                </p>
+                <div className="flex justify-between items-center pt-2 border-t border-slate-100">
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
+                    <i className="fas fa-clock mr-1"></i>
+                    <span>08.00 - 20.00</span>
+                  </div>
+                  <Link
+                    to="/Wahana/MiniBCar"
+                    className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
+                    <span>Detail</span>
+                    <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* Kolam Renang*/}
+            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
+              <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
+                <img
+                  src="./assets/IMG/MiniBumper-min.jpg"
+                  alt="Kolam Renang"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+              </div>
+              <div className="p-5 md:p-6">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-800">
+                    Kolam Renang
+                  </h3>
+                  <div className="flex items-center text-amber-500">
+                    <i className="fas fa-star text-xs md:text-sm"></i>
+                    <span className="ml-1 text-xs md:text-sm font-semibold">
+                      4.7
+                    </span>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
+                  Area taman penuh warna untuk bersantai dan berfoto dengan
+                  pemandangan alam yang menakjubkan.
+                </p>
+                <div className="flex justify-between items-center pt-2 border-t border-slate-100">
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
+                    <i className="fas fa-clock mr-1"></i>
+                    <span>08.00 - 20.00</span>
+                  </div>
+                  <Link
+                    to="/Wahana/KolamRenang"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
                     <span>Detail</span>
                     <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
