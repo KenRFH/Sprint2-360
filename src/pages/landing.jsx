@@ -238,7 +238,7 @@ const Landing = () => {
       </section>
       <section
         id="Tour"
-        className="relative min-h-screen bg-gradient-to-b from-blue-950 to-slate-950 px-4 sm:px-6 md:px-20 pt-28 pb-40 overflow-hidden rounded-t-[4rem]">
+        className="relative min-h-screen bg-gradient-to-b from-blue-950 to-gray-900 px-4 sm:px-6 md:px-20 pt-28 pb-40 overflow-hidden rounded-t-[4rem]">
         <div class="absolute top-0 left-0 w-full overflow-hidden leading-none">
           <svg
             class="relative block w-full h-26"
@@ -271,13 +271,80 @@ const Landing = () => {
                 width="100%"
                 height="100%"
                 allowFullScreen
-                className="rounded-t-2xl shadow-2xl"
+                className="rounded-t-lg  shadow-2xl"
               />
-              <div className="absolute bottom-0 w-full h-20 bg-gradient-to-t from-slate-950 to-transparent" />
+              <div className="absolute bottom-0 w-full h-20 bg-gradient-to-t from-[#10192C] via-[#10192C] to-transparent" />
             </div>
           </div>
         </div>
       </section>
+      <section className="py-16 px-4 md:px-8 bg-gray-900" id="contact">
+        <div className="container mx-auto max-w-3xl mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-white mb-4">Kontak Kami</h2>
+            <p className="text-lg text-gray-300 max-w-xl mx-auto">
+              Kirimkan pengalaman Anda atau saran untuk kami PT Selecta. 
+            </p>
+          </div>
+
+          <form
+            action="mailto:riezqyken57@gmail.com"
+            method="POST"
+            encType="text/plain"
+            className="bg-gray-800 rounded-2xl shadow-lg border border-gray-700 p-8 space-y-6">
+            {/* Nama */}
+            <div>
+              <label className="block text-gray-300 font-medium mb-2">
+                Nama Anda
+              </label>
+              <input
+                type="text"
+                name="Nama"
+                placeholder="Masukkan nama Anda"
+                required
+                className="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+
+            {/* Email Pengirim */}
+            <div>
+              <label className="block text-gray-300 font-medium mb-2">
+                Email Anda
+              </label>
+              <input
+                type="email"
+                name="Email"
+                placeholder="Masukkan email Anda"
+                required
+                className="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+
+            {/* Pesan / Review */}
+            <div>
+              <label className="block text-gray-300 font-medium mb-2">
+                Pengalaman & Ulasan
+              </label>
+              <textarea
+                name="Review"
+                rows="5"
+                placeholder="Ceritakan pengalaman Anda..."
+                required
+                className="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+            </div>
+
+            {/* Submit */}
+            <div className="text-center">
+              <button
+                type="submit"
+                className="px-8 py-3 bg-blue-600 hover:bg-blue-500 transition text-white font-semibold rounded-xl shadow-md">
+                Kirim Review
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
       <section className="relative z-[20] bg-gradient-to-b from-blue-800 to-blue-900 py-16 overflow-hidden rounded-t-2xl -mt-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
@@ -304,7 +371,9 @@ const Landing = () => {
                 </svg>
               </span>
             </a>
-            <a href="https://yellow-partridge-166068.hostingersite.com/" className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 hover:text-white transition-colors duration-500 flex items-center gap-2">
+            <a
+              href="https://yellow-partridge-166068.hostingersite.com/"
+              className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 hover:text-white transition-colors duration-500 flex items-center gap-2">
               Kunjungi Website Utama{" "}
               <span>
                 <svg
@@ -322,6 +391,7 @@ const Landing = () => {
           </div>
         </div>
       </section>
+
       <Footer />
     </>
   );

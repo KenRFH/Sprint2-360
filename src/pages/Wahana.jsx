@@ -182,7 +182,9 @@ const Wahana = () => {
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
-                  pemandangan alam yang menakjubkan.
+                  pemandangan alam yang menakjubkan — kini dipadukan dengan
+                  pengalaman Balon Udara yang membawa Anda melihat keindahan
+                  Selecta dari ketinggian secara lembut dan memukau.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
                   <div className="flex items-center text-slate-500 text-xs md:text-sm">
@@ -222,8 +224,10 @@ const Wahana = () => {
                   </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
-                  Area taman penuh warna untuk bersantai dan berfoto dengan
-                  pemandangan alam yang menakjubkan.
+                  Area taman yang indah menjadi tempat sempurna untuk
+                  beristirahat dan berfoto, ditemani gerakan lembut ikan-ikan
+                  koi di dalam akuarium yang menghadirkan suasana damai dan
+                  menenangkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
                   <div className="flex items-center text-slate-500 text-xs md:text-sm">
@@ -611,7 +615,7 @@ const Wahana = () => {
           </div>
         </div>
       </section>
-      <section className="bg-gradient-to-b from-blue-800 to-blue-900 py-16 overflow-hidden rounded-t-2xl">
+      <section className="bg-gradient-to-b from-blue-800 to-blue-900 py-16 overflow-hidden rounded-t-2xl -mt-5">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Siap untuk Mencoba Wahana?

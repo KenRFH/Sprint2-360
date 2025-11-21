@@ -22,7 +22,7 @@ const Akoirium = () => {
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto mb-6 rounded-full"></div>
             <p className="text-slate-100 text-lg md:text-xl lg:text-2xl font-light drop-shadow-lg max-w-2xl mx-auto leading-relaxed">
-              Melihat banyak koi cantik dari dalam atau luar
+              Melihat banyak koi cantik dari dalam dan luar
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ const Akoirium = () => {
             <div className="bg-red-100 rounded-2xl p-1 transform rotate-2">
               <div className="bg-amber-100 rounded-xl p-4 transform -rotate-2">
                 <img
-                  src="/assets/IMG/Akoirium1-min.jpg"
+                  src="/assets/IMG/koi1.png"
                   alt="Koi"
                   className="w-full h-auto rounded-lg shadow-lg"
                   loading="lazy"
