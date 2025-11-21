@@ -567,6 +567,47 @@ const Wahana = () => {
                 </div>
               </div>
             </div>
+            {/* DinoRide*/}
+            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
+              <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
+                <img
+                  src="./assets/IMG/DinoRide-min.jpg"
+                  alt="DinoRide"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+              </div>
+              <div className="p-5 md:p-6">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-800">
+                    Dino Ride
+                  </h3>
+                  <div className="flex items-center text-amber-500">
+                    <i className="fas fa-star text-xs md:text-sm"></i>
+                    <span className="ml-1 text-xs md:text-sm font-semibold">
+                      4.7
+                    </span>
+                  </div>
+                </div>
+                <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
+                  Area taman penuh warna untuk bersantai dan berfoto dengan
+                  pemandangan alam yang menakjubkan.
+                </p>
+                <div className="flex justify-between items-center pt-2 border-t border-slate-100">
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
+                    <i className="fas fa-clock mr-1"></i>
+                    <span>08.00 - 20.00</span>
+                  </div>
+                  <Link
+                    to="/Wahana/DinoRide"
+                    className="bg-emerald-500 hover:bg-emerald-600 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors duration-300 flex items-center">
+                    <span>Detail</span>
+                    <i className="fas fa-arrow-right ml-2 text-[10px]"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

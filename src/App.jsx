@@ -15,6 +15,7 @@ import GardenTram from "./wahana/GardenTram.jsx";
 import Cinema from "./wahana/Cinema.jsx";
 import Tagada from "./wahana/Tagada.jsx";
 import Akoirium from "./wahana/Akoirium.jsx";
+import DinoRide from "./wahana/DinoRide.jsx";
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/Wahana/Cinema" element={<Cinema />} />
         <Route path="/Wahana/BalonUdara" element={<BalonUdara />} />
         <Route path="/Wahana/Akoirium" element={<Akoirium />} />
+        <Route path="/Wahana/DinoRide" element={<DinoRide />} />
       </Routes>
     </div>
   );
