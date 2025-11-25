@@ -9,7 +9,6 @@ const Wahana = () => {
       <Navbar />
       <section className="bg-green-50 min-h-[calc(100vh-80px)] flex items-center py-10 lg:py-0">
         <div className="container mx-auto px-6 md:px-10 flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-4">
-          {/* Text Content */}
           <div className="flex flex-col justify-center items-center lg:items-start h-full max-w-2xl text-center lg:text-left order-2 lg:order-1">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-bold leading-tight">
               Melihat{" "}
@@ -77,7 +76,7 @@ const Wahana = () => {
               </div>
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="/assets/DinoRanch.png"
+                  src="/assets/IMG/DinoRanch.jpeg"
                   alt="Dino Ranch"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   loading="lazy"
@@ -89,21 +88,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Dino Ranch
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.8
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Nikmati keseruan wahana air yang menyegarkan dengan berbagai
                   pilihan kolam dan seluncuran!
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>10.00 - 18.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/DinoRanch"
@@ -131,21 +133,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Bianglala
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/Bianglala"
@@ -161,7 +166,7 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/IMG/BalonUdara-min.jpg"
+                  src="./assets/IMG/BalonUdara.jpeg"
                   alt="Balon Udara"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   loading="lazy"
@@ -173,12 +178,6 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Balon Udara
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
@@ -187,9 +186,18 @@ const Wahana = () => {
                   Selecta dari ketinggian secara lembut dan memukau.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/BalonUdara"
@@ -216,12 +224,6 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Akoirium
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman yang indah menjadi tempat sempurna untuk
@@ -230,9 +232,18 @@ const Wahana = () => {
                   menenangkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/Akoirium"
@@ -259,12 +270,6 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Garden Tram
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
@@ -300,21 +305,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Family Coaster
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/FamilyCoaster"
@@ -341,21 +349,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     4D Cinema
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/Cinema"
@@ -382,21 +393,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Paddle Boat
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/PaddleBoat"
@@ -423,21 +437,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     SkyBike
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/SkyBike"
@@ -464,21 +481,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Tagada
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/Tagada"
@@ -505,21 +525,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Mini Bumper Car
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/MiniBCar"
@@ -534,7 +557,7 @@ const Wahana = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative">
               <div className="w-full h-44 md:h-48 bg-gradient-to-r from-white to-white/40 rounded-t-xl overflow-hidden relative">
                 <img
-                  src="./assets/IMG/MiniBumper-min.jpg"
+                  src="./assets/IMG/KolamRenang.jpeg"
                   alt="Kolam Renang"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   loading="lazy"
@@ -546,21 +569,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Kolam Renang
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/KolamRenang"
@@ -587,21 +613,24 @@ const Wahana = () => {
                   <h3 className="text-lg md:text-xl font-bold text-slate-800">
                     Dino Ride
                   </h3>
-                  <div className="flex items-center text-amber-500">
-                    <i className="fas fa-star text-xs md:text-sm"></i>
-                    <span className="ml-1 text-xs md:text-sm font-semibold">
-                      4.7
-                    </span>
-                  </div>
                 </div>
                 <p className="text-slate-600 text-xs md:text-sm mb-4 line-clamp-2">
                   Area taman penuh warna untuk bersantai dan berfoto dengan
                   pemandangan alam yang menakjubkan.
                 </p>
                 <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                  <div className="flex items-center text-slate-500 text-xs md:text-sm">
-                    <i className="fas fa-clock mr-1"></i>
-                    <span>08.00 - 20.00</span>
+                  <div className="flex items-center text-slate-500 text-xs md:text-sm gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 432 432">
+                      <path
+                        fill="currentColor"
+                        d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zm0 384q70.5 0 120.5-50t50-121t-50-121t-120.5-50T93 95T43 216t50 121t120.5 50zM224 109v112l96 57l-16 27l-112-68V109h32z"
+                      />
+                    </svg>
+                    <span>07.00 - 17.00</span>
                   </div>
                   <Link
                     to="/Wahana/DinoRide"

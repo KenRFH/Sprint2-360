@@ -9,7 +9,7 @@ const KolamRenang = () => {
       <section className="relative w-full h-[400px] md:h-[550px] lg:h-[650px] overflow-hidden rounded-b-4xl">
         <div className="absolute inset-0">
           <img
-            src="/assets/IMG/KolamRenang.jpg"
+            src="/assets/IMG/KolamRenang.jpeg"
             alt="Tagada"
             className="w-full h-full object-cover transform scale-105 hover:scale-100 transition-transform"
             loading="lazy"
@@ -113,7 +113,7 @@ const KolamRenang = () => {
             <div className="bg-red-100 rounded-2xl p-1 transform rotate-2">
               <div className="bg-blue-100 rounded-xl p-4 transform -rotate-2">
                 <img
-                  src="/assets/IMG/Tagada-min.jpg"
+                  src="/assets/IMG/KolamRenang.jpeg"
                   alt="Balon Udara Experience"
                   className="w-full h-auto rounded-lg shadow-lg"
                   loading="lazy"

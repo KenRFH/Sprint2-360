@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 
+
+
+
 const Landing = () => {
   const [{ y }, api] = useSpring(() => ({ y: 0 }));
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -34,10 +37,11 @@ const Landing = () => {
             alt="Background Selecta"
           />
 
+          
           <div
-            className="absolute inset-0 backdrop-blur-sm"
+            className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-900/40 to-blue-950/80"
             style={{
-              backgroundColor: `rgba(0,0,0,${0.25 + scrollProgress * 0.35})`,
+              opacity: 0.7 + scrollProgress * 0.3,
             }}
           />
         </animated.div>
@@ -108,7 +112,7 @@ const Landing = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className=" relative w-full h-[260px] sm:h-[320px] md:h-[420px] lg:h-[520px] overflow-hidden rounded-xl shadow-lg p-2 backdrop-blur-2xl ">
               <iframe
-                src="assets/loket-taman/index.htm"
+                src="assets/Preview360/index.htm"
                 width="100%"
                 height="100%"
                 className="block rounded-2xl"
@@ -267,7 +271,7 @@ const Landing = () => {
           <div className="relative w-full mt-10 md:mt-16">
             <div className="relative w-full h-[260px] sm:h-[330px] md:h-[700px] overflow-hidden">
               <iframe
-                src="assets/loket-taman/index.htm"
+                src="assets/Preview360/index.htm"
                 width="100%"
                 height="100%"
                 allowFullScreen
@@ -278,72 +282,7 @@ const Landing = () => {
           </div>
         </div>
       </section>
-      <section className="py-16 px-4 md:px-8 bg-gray-900" id="contact">
-        <div className="container mx-auto max-w-3xl mb-20">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-white mb-4">Kontak Kami</h2>
-            <p className="text-lg text-gray-300 max-w-xl mx-auto">
-              Kirimkan pengalaman Anda atau saran untuk kami PT Selecta. 
-            </p>
-          </div>
-
-          <form
-            action="mailto:riezqyken57@gmail.com"
-            method="POST"
-            encType="text/plain"
-            className="bg-gray-800 rounded-2xl shadow-lg border border-gray-700 p-8 space-y-6">
-            {/* Nama */}
-            <div>
-              <label className="block text-gray-300 font-medium mb-2">
-                Nama Anda
-              </label>
-              <input
-                type="text"
-                name="Nama"
-                placeholder="Masukkan nama Anda"
-                required
-                className="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              />
-            </div>
-
-            {/* Email Pengirim */}
-            <div>
-              <label className="block text-gray-300 font-medium mb-2">
-                Email Anda
-              </label>
-              <input
-                type="email"
-                name="Email"
-                placeholder="Masukkan email Anda"
-                required
-                className="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              />
-            </div>
-
-            {/* Pesan / Review */}
-            <div>
-              <label className="block text-gray-300 font-medium mb-2">
-                Pengalaman & Ulasan
-              </label>
-              <textarea
-                name="Review"
-                rows="5"
-                placeholder="Ceritakan pengalaman Anda..."
-                required
-                className="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
-            </div>
-
-            {/* Submit */}
-            <div className="text-center">
-              <button
-                type="submit"
-                className="px-8 py-3 bg-blue-600 hover:bg-blue-500 transition text-white font-semibold rounded-xl shadow-md">
-                Kirim Review
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
+      
 
       <section className="relative z-[20] bg-gradient-to-b from-blue-800 to-blue-900 py-16 overflow-hidden rounded-t-2xl -mt-20">
         <div className="max-w-4xl mx-auto text-center px-6">

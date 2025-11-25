@@ -9,7 +9,7 @@ const BalonUdara = () => {
       <section className="relative w-full h-[400px] md:h-[550px] lg:h-[650px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/assets/BalonUdara.jpg"
+            src="/assets/IMG/BalonUdara.jpeg"
             alt="Balon Udara Selecta"
             className="w-full h-full object-cover transform scale-105 hover:scale-100 transition-transform duration-7000"
           />
@@ -106,14 +106,11 @@ const BalonUdara = () => {
             <div className="bg-red-500 rounded-2xl p-1 transform rotate-2">
               <div className="bg-blue-500 rounded-xl p-4 transform -rotate-2">
                 <img
-                  src="/assets/BalonUdara.jpg"
+                  src="/assets/IMG/BalonUdara.jpeg"
                   alt="Balon Udara Experience"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>
-            </div>
-            <div className="absolute -top-4 -right-4 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-6 py-3 rounded-full shadow-lg transform rotate-6">
-              <span className="font-bold text-sm">🏆 Terbaik 2024</span>
             </div>
           </div>
         </div>
@@ -222,7 +219,9 @@ const BalonUdara = () => {
                 </svg>
               </span>
             </a>
-            <a href="https://yellow-partridge-166068.hostingersite.com/" className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 hover:text-white transition-colors duration-500 flex items-center gap-2">
+            <a
+              href="https://yellow-partridge-166068.hostingersite.com/"
+              className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 hover:text-white transition-colors duration-500 flex items-center gap-2">
               Kunjungi Website Utama{" "}
               <span>
                 <svg

@@ -9,7 +9,7 @@ const DinoRanch = () => {
       <section className="relative w-full h-[400px] md:h-[550px] lg:h-[650px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/assets/BalonUdara.jpg"
+            src="/assets/IMG/DinoRanch.jpeg"
             alt="Balon Udara Selecta"
             className="w-full h-full object-cover transform scale-105 hover:scale-100 transition-transform duration-7000"
           />
@@ -104,7 +104,7 @@ const DinoRanch = () => {
             <div className="bg-red-500 rounded-2xl p-1 transform rotate-2">
               <div className="bg-blue-500 rounded-xl p-4 transform -rotate-2">
                 <img
-                  src="/assets/BalonUdara.jpg"
+                  src="/assets/IMG/DinoRanch.jpeg"
                   alt="Balon Udara Experience"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
