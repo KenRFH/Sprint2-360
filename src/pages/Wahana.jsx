@@ -41,7 +41,7 @@ const Wahana = () => {
       </section>
       <div className="relative w-full overflow-hidden leading-none -mt-1">
         <svg
-          className="block w-full h-12 sm:h-24 text-green-50"
+          className="hidden md:block w-full h-12 sm:h-24 text-green-50"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none">
           <path
